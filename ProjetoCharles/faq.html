@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="js/darkmode.js" defer></script>
+  <script type="text/javascript" src="js/validação_subMenu.js"></script>
+  <title>CPaaS - FAQ</title>
+  <link rel="icon" href="imagens/telacall__1_-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="Css/stylefaq.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+
+<body>
+
+        <!-- Cabeçalho -->
+    <header class="header">
+
+        <!-- Menu principal -->
+        <nav class="nav1">
+        <img id="logo_nav1" src="imagens/telacall 1.png" alt="logo empresa">            
+
+            <ul class="nav1_list">
+            <li><a id="home" class="dropdown-item" href="index.html"><i class="bi bi-house-door"></i> Home</a></li>   
+            </ul>
+
+            <ul class="nav1_list2">
+            <button id="ModoEscuro" ><i class="bi bi-moon-fill"></i><i class="bi bi-brightness-high-fill"></i></button>
+            </ul>
+            <a  id="areaCliente"  href="login.html"><i class="bi bi-person" style="font-size: 1.3rem;"></i> Area do Cliente</a>
+        </nav>
+
+        <!-- menu secundario-->
+        <nav class="nav2">
+            <img id="logo_nav" src="imagens/telacall 1.png"  alt="logo empresa">
+            <ul class="nav2_list">
+                <li><a class="dropdown-item" href="internet.html">Internet</a></li>
+                <li><a class="dropdown-item" href="telefonia.html">Telefonia</a></li>
+                <li><a class="dropdown-item" href="redeinfraestrutura.html">Rede e Infraestrutura</a></li>
+                <li><a class="dropdown-item" href="mobilidade.html">Mobilidade</a></li>
+                <li><a class="dropdown-item" href="outrassoluções.html">Outras Soluçôes</a></li>
+            </ul>
+        </nav>
+            <!-- Ícone do menu mobile -->
+        <div class="menu_icon">
+            <button id="menuToggle" ><i class="bi bi-list"></i></button>
+        </div>
+        <!-- Menu Mobile -->
+        <div class="nav_mobile" id="mobileMenu">
+            <ul>
+                <a id="close_mobile" href="#"><i class="bi bi-x-lg"></i></a>                
+                <button id="ModoEscuro_mobile"><i class="bi bi-moon-fill"></i><i class="bi bi-brightness-high-fill"></i></button>
+                <li><a class="areaClienteMobile" href="login.html"><i class="bi bi-person" style="font-size: 1.3rem;"></i> Area do Cliente</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internet.html">Internet</a></li>
+                <li><a href="telefonia.html">Telefonia</a></li>
+                <li><a href="redeinfraestrutura.html">Rede e Infraestrutura</a></li>
+                <li><a href="mobilidade.html">Mobilidade</a></li>
+                <li><a href="outrassoluções.html">Outras Soluções</a></li>
+            </ul>
+        </div>
+
+</header>
+ 
+<!--Botôes de aumentar e diminuir fonte-->
+    <div class="font-buttons">
+        <button onclick="adjustFontSize(1)">A+</button>
+        <button onclick="adjustFontSize(-1)">A-</button>
+    </div>
+
+  <main class="faq-container">
+    <h1 class="titulo_serviços" >FAQ</h1>
+
+    <section>
+      <h2>Internet</h2>
+      <details>
+        <summary>1. Quais as velocidades de internet de alta performance oferecidas pela Telecall CPaaS?</summary>
+        <p>A Telecall CPaaS oferece diversas opções de velocidade, geralmente acima de 100 Mbps, podendo chegar a Gbps,
+          dependendo da necessidade da empresa.</p>
+      </details>
+
+      <details>
+        <summary>2. A internet de performance da Telecall CPaaS garante baixa latência para aplicações em tempo real?
+        </summary>
+        <p>Sim, a infraestrutura da Telecall CPaaS é projetada para oferecer baixa latência, crucial para aplicações
+          como videoconferências e comunicação unificada.</p>
+      </details>
+
+      <details>
+        <summary>3. A Telecall CPaaS oferece suporte dedicado para problemas com a internet de alta performance?
+        </summary>
+        <p>Sim, a Telecall CPaaS geralmente oferece suporte técnico especializado para clientes com internet de alta
+          performance.</p>
+      </details>
+
+      <details>
+        <summary>4. A internet de alta performance da Telecall CPaaS é escalável para acompanhar o crescimento da minha
+          empresa?</summary>
+        <p>Sim, as soluções de internet da Telecall CPaaS são escaláveis, permitindo upgrades de velocidade conforme a
+          demanda da empresa aumenta.</p>
+      </details>
+
+      <details>
+        <summary>5. Quais os benefícios da internet de alta performance da Telecall CPaaS para a minha comunicação
+          empresarial?</summary>
+        <p>A internet de alta performance melhora a qualidade das comunicações, a velocidade de transferência de dados e
+          a confiabilidade das aplicações online da sua empresa.</p>
+      </details>
+    </section>
+
+    <section>
+      <h2>Telefonia</h2>
+
+      <details>
+        <summary>1. Como o VoIP empresarial pode beneficiar a qualidade e o custo das minhas chamadas?</summary>
+        <p>O VoIP empresarial oferece chamadas de alta qualidade e menor custo ao utilizar a internet em vez de linhas
+          telefônicas tradicionais.</p>
+      </details>
+
+      <details>
+        <summary>2. Quais as principais vantagens de um PABX Virtual em relação a um sistema telefônico físico?
+        </summary>
+        <p>O PABX Virtual oferece escalabilidade, recursos avançados (URA, filas, gravação) e dispensa infraestrutura
+          física, tudo na nuvem.</p>
+      </details>
+
+      <details>
+        <summary>3. De que forma os números virtuais inteligentes podem otimizar a presença telefônica da minha empresa?
+        </summary>
+        <p>Números virtuais permitem presença global, roteamento flexível e integração com diversos canais de
+          comunicação.</p>
+      </details>
+
+      <details>
+        <summary>4. Quais recursos avançados de um PABX Virtual podem melhorar o atendimento ao cliente da minha
+          empresa?</summary>
+        <p>Recursos como URA (Unidade de Resposta Audível) para direcionamento eficiente e filas de atendimento
+          organizam o fluxo de chamadas.</p>
+      </details>
+
+      <details>
+        <summary>5. É possível integrar o sistema de VoIP empresarial com outras ferramentas de comunicação e CRM que já
+          utilizamos?</summary>
+        <p>Sim, a maioria dos sistemas de VoIP empresarial oferece integrações com CRMs e outras plataformas para
+          otimizar processos.</p>
+      </details>
+    </section>
+  </main>
+
+
+  <script src="teste.js"></script>
+</body>
+
+</html>

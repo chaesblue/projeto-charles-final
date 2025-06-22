@@ -1,0 +1,27 @@
+@import url(style.css);
+@import url(styleLogin.css);
+
+#fundo_cadstro{
+    height: 900px;
+}
+
+.botao_cadastro{
+    margin-top: 2rem;
+}
+
+
+
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.span-required{
+    display: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(255, 170, 170);
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 3px;
+    margin:  0 0 1rem 0;
+}

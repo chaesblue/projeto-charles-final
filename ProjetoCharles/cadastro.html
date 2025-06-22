@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro_contato.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script type="text/javascript" src="js/validação_subMenu.js" defer></script>
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+
+        <!-- Menu principal -->
+    <nav class="nav1">
+        <img id="logo_nav1" src="imagens/telacall 1.png" alt="logo empresa"> 
+        <a id="home_mobile" href="index.html"><i class="bi bi-house-door"></i> Home</a>
+         <a id="areaCliente"  href="login.html"><i class="bi bi-person"></i> Area do Cliente</a>
+    </nav>
+
+        <!-- menu secundario-->
+        <nav class="nav2">
+            <img id="logo_nav" src="imagens/telacall 1.png" alt="logo empresa">
+            
+        </div>
+
+    </header>
+    <!--Botôes de aumentar e diminuir fonte-->
+    <div class="font-buttons">
+        <button onclick="adjustFontSize(1)">A+</button>
+        <button onclick="adjustFontSize(-1)">A-</button>
+    </div>
+
+    <div class="conteudo_principal" id="fundo_cadstro">
+        <div class="login-container" id="cadastro-container">
+            <i class="bi bi-person"></i>
+            <h1>Cadastro</h1>    
+                <form id="cadastro" class="fomulario" action="/cadastro" method="post">
+                    
+                    <input type="text" class="campo required" id="nome" name="nome" placeholder="Nome:"  oninput="namevalidate()" required>
+                    <span class="span-required">nome deve conter no minimo 3 caracteres</span>
+                    <input type="text" class="campo" placeholder="Data de nascimento" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" required>
+                    <input type="text" class="campo required" placeholder="Telefone:(00) 000000-0000" required oninput="numbervalidate(1)">
+                    <span class="span-required">numero deve seguir seguinte formato (00) 0000-0000</span>
+                    <input type="text"  class="campo required" placeholder="Celular:(00) 000000-0000" required oninput="numbervalidate(2)">
+                     <span class="span-required">numero deve seguir seguinte formato (00) 0000-0000</span>
+                    <input type="text" class="campo" id="nome-mae" name="nome-mae" placeholder="Nome da Mãe:">
+                    
+
+                    
+                    <input list="generos" class="campo" id="genero" name="genero" placeholder="Gênero">
+                    <datalist id="generos">
+                    <option value="Homem-cis">
+                    <option value="Mulher-cis">
+                    <option value="Mulher-trans">
+                    <option value="Homem-trans">
+                    <option value="Não-binário">
+                    </datalist>
+                    
+                    <input type="text" class="campo required" id="cpf" name="cpf" placeholder="CPF:" required oninput="cpfvalidate()">
+                    <span class="span-required">CPF incorreto</span>
+                    <input type="email" class="campo required" id="email" name="email" placeholder="E-mail:" required oninput="emailvalidate()">
+                    <span class="span-required">E-mail dever conter @.com</span>
+                    <input type="password" class="campo required" id="senha" name="senha" placeholder="Senha:" required oninput="senhavalidate()">
+                    <span class="span-required">Senha deve conter no minimo 6 caracteres</span>
+                    <input type="password" class="campo required" id="comfirmar-senha" name="senha" placeholder=" comfirme a Senha:" required oninput="senhaconfirmation()">
+                    <span class="span-required">Senhas não coincidem</span>
+                    
+                    <input type="textarea" class="campo" id="endereço" name="endereco" placeholder="Endereço completo:" required>
+                    <button class="botao botao_cadastro" type="submit">cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>

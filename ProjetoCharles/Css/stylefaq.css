@@ -1,0 +1,49 @@
+@import url(style.css);
+@import url(styleIservicos.css);
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--fundo);
+  color: var(--cor-texto-escuro);
+  line-height: 1.6;
+}
+
+
+main.faq-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color:var(--fundo);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: var(--cor-media);
+}
+
+details {
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: var(--fundo);
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}

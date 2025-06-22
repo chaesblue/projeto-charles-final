@@ -1,0 +1,76 @@
+@import url(style.css);
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   background-color: var(--fundo)!important;
+   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  overflow-y: hidden !important;
+}
+
+.nav2_list{
+   margin-top: 0.9rem;
+}
+
+#areaCliente{
+   padding: 0.2rem 2rem;
+}
+
+#home{
+
+  margin-top: 0.9rem;
+}
+
+.nav_mobile a{
+   text-decoration: none;
+   font-weight: 700;
+}
+
+#menuToggle{
+   color: var(--cor-texto-escuro);
+
+}
+
+.titulo_serviços{
+   text-align: center;
+   color: var(--cor-texto-escuro);
+   border-bottom: 2px solid var(--cor-texto-escuro);
+   padding: 1rem 8rem;
+   margin-bottom: 2rem;
+}
+.principal_serviços{
+ display: grid;
+  place-items: center;
+  background-position: center;
+  width: 100%;
+  height: auto; 
+  margin-bottom: 4rem;
+    }
+
+.cards_serviços{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+margin-bottom: 4rem;
+    }
+
+.card-body{
+background-color: var(--fundo);
+}
+
+.card-body h5{
+color: var(--cor-texto-escuro);
+}
+
+.card-body p{
+   color: var(--cor-media);
+}
+
+
+

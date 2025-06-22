@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>internet</title>
+    <link rel="icon" href="imagens/telacall__1_-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styleIservicos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script type="text/javascript" src="js/darkmode.js" defer></script>
+    <script type="text/javascript" src="js/validação_subMenu.js" defer></script>
+</head>
+<body >
+        <!-- Cabeçalho -->
+    <header class="header">
+
+        <!-- Menu principal -->
+    <nav class="nav1">
+    <img id="logo_nav1" src="imagens/telacall 1.png" alt="logo empresa">            
+
+        <ul class="nav1_list">
+            <li><a id="home" class="dropdown-item" href="index.html"><i class="bi bi-house-door"></i> Home</a></li>
+            
+            </ul>
+         <ul class="nav1_list2">
+            <button id="ModoEscuro" ><i class="bi bi-moon-fill"></i><i class="bi bi-brightness-high-fill"></i></button>
+        </ul>
+            <a  id="areaCliente"  href="login.html"><i class="bi bi-person" style="font-size: 1.3rem;"></i> Area do Cliente</a>
+    </nav>
+
+        <!-- menu secundario-->
+        <nav class="nav2">
+            <img id="logo_nav" src="imagens/telacall 1.png"  alt="logo empresa">
+            <ul class="nav2_list">
+                <li><a class="dropdown-item" href="internet.html">Internet</a></li>
+                <li><a class="dropdown-item" href="telefonia.html">Telefonia</a></li>
+                <li><a class="dropdown-item" href="redeinfraestrutura.html">Rede e Infraestrutura</a></li>
+                <li><a class="dropdown-item" href="mobilidade.html">Mobilidade</a></li>
+                <li><a class="dropdown-item" href="outrassoluções.html">Outras Soluçôes</a></li>
+            </ul>
+        </nav>
+            <!-- Ícone do menu mobile -->
+        <div class="menu_icon">
+            <button id="menuToggle" ><i class="bi bi-list"></i></button>
+        </div>
+        <!-- Menu Mobile -->
+        <div class="nav_mobile" id="mobileMenu">
+            <ul>
+                <a id="close_mobile" href="#"><i class="bi bi-x-lg"></i></a>                
+                <button id="ModoEscuro_mobile"><i class="bi bi-moon-fill"></i><i class="bi bi-brightness-high-fill"></i></button>
+                <li><a class="areaClienteMobile" href="login.html"><i class="bi bi-person" style="font-size: 1.3rem;"></i> Area do Cliente</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internet.html">Internet</a></li>
+                <li><a href="telefonia.html">Telefonia</a></li>
+                <li><a href="redeinfraestrutura.html">Rede e Infraestrutura</a></li>
+                <li><a href="mobilidade.html">Mobilidade</a></li>
+                <li><a href="outrassoluções.html">Outras Soluções</a></li>
+            </ul>
+        </div>
+
+</header>
+<!--Botôes de aumentar e diminuir fonte-->
+    <div class="font-buttons">
+        <button onclick="adjustFontSize(1)">A+</button>
+        <button onclick="adjustFontSize(-1)">A-</button>
+    </div>
+
+   
+<div class="principal_serviços">
+    
+    <h1 class="titulo_serviços">Internet</h1>
+
+    <div class="cards_serviços">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Plano Conexão Pro</h5>
+                <p class="card-text" >Ideal para empresas com alta demanda de dados e comunicação constante. Oferece velocidade de internet robusta e estável.</p>
+                <a href="sub_pastas_html/Pro_Internet.html" class="btn btn-primary" style="background-color: #355382; border: 2px solid rgb(68, 68, 68) ">Saiba mais</a>
+        
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Plano Link Premium</h5>
+                <p class="card-text">Solução de conectividade avançada com redundância e IP fixo, garantindo alta disponibilidade e segurança para operações essenciais.</p>
+                <a href="sub_pastas_html/premium-internet.html" class="btn btn-primary" style="background-color: #355382; border: 2px solid rgb(68, 68, 68) ">Saiba mais</a>
+    
+            </div>
+
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Plano Gigabit Empresarial</h5>
+                <p class="card-text">Empresas que exigem a maior velocidade e capacidade de tráfego para suportar um grande volume de dados e aplicações simultâneas.</p>
+                <a href="sub_pastas_html/gigabit_empresarial.html" class="btn btn-primary" style="background-color: #355382; border: 2px solid rgb(68, 68, 68) ">Saiba mais</a>
+    
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>

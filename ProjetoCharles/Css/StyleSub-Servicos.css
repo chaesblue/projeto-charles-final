@@ -1,0 +1,77 @@
+@import url(style.css);
+@import url(styleIservicos.css);
+
+body{
+    background-color: var(--fundo)!important;
+}
+
+.titulo_serviços{
+    margin-top: 1rem;
+    color: var(--cor-texto-claro);
+    border-color: var(--cor-texto-claro);
+}
+
+.texto_principal{
+     display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.texto_principal p{
+    color: var(--cor-texto-claro);
+    margin-top: 1.5rem;
+    margin-bottom: 1.7rem;
+    font-size: 1.3rem;
+}
+
+.texto_principal h3{
+    font-size: 1.4rem;
+}
+
+.botao_contato{
+    padding: 0.3rem 3rem;
+}
+
+#texto_secundario{
+    margin-top: 3rem;
+}
+
+#texto_secundario p{
+    color: var(--cor-texto-escuro);
+}
+
+#texto_secundario h3{
+    color: var(--cor-texto-escuro);
+}
+
+#titulo_sub_servicos{
+    color: var(--cor-texto-escuro);
+    font-size: 1.5rem;
+}
+
+.escuro{
+    color: var(--cor-texto-escuro);
+    border-color: var(--cor-texto-escuro);
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.secundario{
+    margin-bottom: 25rem;
+}
+
+.card-body{
+background-color: var(--fundo);
+color: var(--cor-texto-escuro);
+}
+
+.titulo{
+    font-size: 1.4rem;
+}
+
+#sub{
+    color: var(--cor-texto-claro);
+}

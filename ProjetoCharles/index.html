@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>CPaaS</title>
+    <link rel="icon" href="imagens/telacall__1_-removebg-preview.png" type="image/x-icon">
+    <script type="text/javascript" src="js/darkmode.js" defer></script>
+    <script type="text/javascript" src="js/validação_subMenu.js" defer></script>
+
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <!-- Menu principal -->
+        <nav class="nav1">
+            <img id="logo_nav1" src="imagens/telacall 1.png" alt="logo empresa">
+            <ul class="nav1_list">
+                <li><a href="index.html"><i class="bi bi-house-door"></i> Home</a></li>            </ul>
+
+            <ul class="nav1_list2">
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <button id="ModoEscuro"><i class="bi bi-moon-fill"></i><i class="bi bi-brightness-high-fill"></i></button>
+            </ul>
+            <a id="areaCliente" href="login.html"><i class="bi bi-person" style="font-size: 1.3rem;"></i> Area do Cliente</a>
+        </nav>
+
+        <!-- Menu secundário -->
+        <nav class="nav2">
+            <img id="logo_nav" src="imagens/telacall 1.png" alt="logo empresa">
+            <ul class="nav2_list">
+                <li><a href="internet.html">Internet</a></li>
+                <li><a href="telefonia.html">Telefonia</a></li>
+                <li><a href="redeinfraestrutura.html">Rede e Infraestrutura</a></li>
+                <li><a href="mobilidade.html">Mobilidade</a></li>
+                <li><a href="outrassoluções.html">Outras Soluções</a></li>
+            </ul>
+        </nav>
+
+        <!-- Ícone do menu mobile -->
+        <div class="menu_icon">
+            <button id="menuToggle" ><i class="bi bi-list"></i></button>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="nav_mobile" id="mobileMenu">
+            <ul>
+                <a id="close_mobile" href="#"><i class="bi bi-x-lg"></i></a>                
+                <button id="ModoEscuro_mobile"><i class="bi bi-moon-fill"></i><i class="bi bi-brightness-high-fill"></i></button>
+                <li><a class="areaClienteMobile" href="login.html"><i class="bi bi-person" style="font-size: 1.3rem;"></i> Area do Cliente</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internet.html">Internet</a></li>
+                <li><a href="telefonia.html">Telefonia</a></li>
+                <li><a href="redeinfraestrutura.html">Rede e Infraestrutura</a></li>
+                <li><a href="mobilidade.html">Mobilidade</a></li>
+                <li><a href="outrassoluções.html">Outras Soluções</a></li>
+                <li><a href="institucional.html">Institucional</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--Botôes de aumentar e diminuir fonte-->
+    <div class="font-buttons">
+        <button onclick="adjustFontSize(1)">A+</button>
+        <button onclick="adjustFontSize(-1)">A-</button>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo_principal">
+        <h2 id="titulo_principal">Soluções Inteligentes para sua empresa</h2>
+
+        <!-- Cards principais -->
+        <div id="cards_merchan">
+        
+            <div class="cards"> 
+                <h3><i class="bi bi-cloud-upload"></i> Communicantions APIs</h3>
+                <p>Alcance e envolva clientes através de mensagens, voz, vídeo e muito mais.</p>
+            </div>
+            <div class="cards"> 
+                <h3><i class="bi bi-code-slash"></i> Network APIs</h3>
+                <p>Acesse capacidades avançadas de rede para criar melhores aplicações, mais rápido.</p>
+            </div>
+        
+        
+            <div class="cards"> 
+                <h3><i class="bi bi-headset"></i> Contact Centers</h3>
+                <p>Forneça aos agentes ferramentas e insights para aumentar a satisfação do cliente.</p>
+            </div>
+            <div class="cards"> 
+                <h3><i class="bi bi-telephone-outbound"></i> Unified Communications</h3>
+                <p>Unifique os canais de comunicação empresarial global para trabalharem melhor juntos.</p>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- Clientes -->
+    <div id="about_clientes" class="about_clientes">
+        <h1>Nossos clientes</h1>
+        <div id="about_clientes_div">
+            <div class="about_clientes_cards">
+                <img class="about_clientes_imagem" src="imagens/globallogo 1.png" alt="logo Global">
+                <p>“Prezados da Telecall, gostaria de expressar minha sincera gratidão pela excelência do serviço CPaaS. A eficiência e a confiabilidade da plataforma têm sido fundamentais para o sucesso de nossas operações. Agradeço pelo profissionalismo e pelo suporte contínuo."</p>
+                <h4>Ricardo Alburquerque</h4>
+                <h2>Diretor de Marketing</h2>
+            </div>
+            <div class="about_clientes_cards">
+                <img class="about_clientes_imagem" src="imagens/LogoElevate 1.png" alt="logo Elevate">
+                <p>“Gostaria de agradecer à Telecall pelo serviço CPaaS, que superou nossas expectativas. A flexibilidade e a escalabilidade da plataforma nos permitiram otimizar a comunicação com nossos clientes, resultando em maior satisfação e eficiência. Agradeço pela parceria e pelos resultados positivos."</p>
+                <h4>Sofia Nunes</h4>
+                <h2>Gerente de Produtos</h2>
+            </div>
+            <div class="about_clientes_cards">
+                <img class="about_clientes_imagem" src="imagens/LogoPolygon 1.png" alt="logo Polygon">
+                <p>“Agradeço à Telecall pelo excelente serviço CPaaS. A plataforma tem sido essencial para nossas operações e o suporte tem sido impecável. Muito obrigado!”</p>
+                <h4>Lucas Barbosa</h4>
+                <h2>Desenvolvedor FullStack</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quem somos -->
+    <div id="Quem_somos" class="quem_somos">
+        <h1>Quem somos</h1>
+        <p id="quem_somos_paragrafo">A Telecall CPaaS é uma plataforma de comunicação em nuvem que oferece soluções completas para empresas. Integramos voz, vídeo, SMS e outros canais em uma única interface, facilitando a interação com clientes. Nossa tecnologia robusta e escalável melhora a comunicação e a experiência do cliente. Simplificamos a complexidade da comunicação para que você se concentre no seu negócio. Somos a ponte entre sua empresa e seus clientes, de forma eficiente e inovadora.</p>
+    </div>
+</body>
+</html>
